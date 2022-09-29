@@ -2,6 +2,12 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
+    <IfModule mod_rewrite.c>
+    RewriteEngine on
+    rewritemap lowercase int:tolower
+    RewriteCond $1 [A-Z]
+    RewriteRule ^/(.*)$ /${lowercase:$1} [R=301,L] 
+    </IfModule>
 
 
 
