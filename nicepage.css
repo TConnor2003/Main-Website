@@ -39203,7 +39203,8 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-footer .u-text-2 {
   font-size: 0.75rem;
   background-image: none;
-  margin: 10px 0 0;
+  width: 169px;
+  margin: 10px auto 0;
 }
 
 .u-footer .u-line-1 {
