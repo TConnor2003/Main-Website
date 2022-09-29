@@ -29,11 +29,15 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 720px;
+    min-height: 714px;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 547px;
+  }
+
   .u-section-1 .u-text-2 {
     width: 720px;
   }
@@ -41,7 +45,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 662px;
+    min-height: 390px;
   }
 
   .u-section-1 .u-text-1 {
@@ -55,7 +59,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 554px;
+    min-height: 253px;
   }
 
   .u-section-1 .u-text-1 {
