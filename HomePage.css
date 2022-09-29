@@ -261,7 +261,7 @@
 .u-section-3 .u-image-1 {
   width: 132px;
   height: 132px;
-  margin: -246px auto 0 59px;
+  margin: -246px auto 0 30px;
 }
 
 .u-section-3 .u-text-1 {
@@ -311,7 +311,7 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 652px;
+    min-height: 552px;
   }
 
   .u-section-3 .u-video-1 {
@@ -324,11 +324,13 @@
   }
 
   .u-section-3 .u-text-1 {
-    margin-top: 124px;
+    width: auto;
+    margin-top: 39px;
   }
 
   .u-section-3 .u-text-2 {
-    width: 340px;
+    width: auto;
+    margin: 25px 0 10px;
   }
 } .u-section-4 {
   background-image: linear-gradient(black, #555c66);
