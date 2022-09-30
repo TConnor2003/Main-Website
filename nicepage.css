@@ -39955,7 +39955,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-text-1 {
   font-size: 2.25rem;
   width: 264px;
-  margin: -83px auto 34px;
+  margin: -84px auto 35px;
 }
 @media (max-width: 1199px) {
   .u-header .u-sheet-1 {
@@ -39968,10 +39968,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-image-1 {
     margin-left: 164px;
-  }
-
-  .u-header .u-text-1 {
-    margin-bottom: 35px;
   }
 }
 @media (max-width: 991px) {
