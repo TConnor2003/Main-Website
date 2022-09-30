@@ -59,11 +59,21 @@
   }
 
   .u-section-1 .u-btn-1 {
-    margin-top: 667px;
+    margin-top: 513px;
+  }
+
+  .u-section-1 .u-text-3 {
+    width: auto;
+    margin-top: -174px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -205px;
   }
 
   .u-section-1 .u-rotation-parent-1 {
-    margin-top: -63px;
+    margin-top: 230px;
+    margin-bottom: 31px;
   }
 }
 
@@ -127,6 +137,8 @@
 .u-block-4ba5-3 {
   position: absolute;
   left: 0;
+  background-image: none;
+  padding: 10px;
 }
 
 .u-block-4ba5-4 {
@@ -136,6 +148,20 @@
   left: auto;
   top: 379px;
   right: 0;
+  background-image: none;
+  padding: 10px;
+}
+
+@media (max-width: 991px) {
+  .u-block-4ba5-4 {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-block-4ba5-4 {
+    padding: 10px;
+  }
 }
 
  .u-section-2-1 {
@@ -220,17 +246,26 @@
 }
 
 .u-section-2-2 .u-text-1 {
-  margin: 82px auto 0;
+  margin: 48px auto 0;
 }
 
 .u-section-2-2 .u-text-2 {
-  margin: 28px auto 0;
+  margin: 13px auto 0;
+}
+
+.u-section-2-2 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 18px auto 0;
 }
 
 .u-section-2-2 .u-gallery-1 {
   height: 552px;
-  margin-top: 28px;
-  margin-bottom: 45px;
+  margin-top: 18px;
+  margin-bottom: 46px;
   grid-gap: 17px 17px;
 }
 
@@ -289,7 +324,7 @@
 
 @media (max-width: 767px) {
   .u-section-2-2 .u-sheet-1 {
-    min-height: 361px;
+    min-height: 1209px;
   }
 
   .u-section-2-2 .u-gallery-1 {
@@ -299,12 +334,11 @@
 
 @media (max-width: 575px) {
   .u-section-2-2 .u-sheet-1 {
-    min-height: 1035px;
+    min-height: 828px;
   }
 
   .u-section-2-2 .u-gallery-1 {
     height: 700px;
-    margin-bottom: 0;
   }
 }
 
@@ -358,11 +392,12 @@
 
 @media (max-width: 1199px) {
   .u-section-2-3 .u-sheet-1 {
-    min-height: 585px;
+    min-height: 730px;
   }
 
   .u-section-2-3 .u-gallery-1 {
     height: 457px;
+    margin-bottom: 0;
   }
 
   .u-section-2-3 .u-gallery-inner-1 {
@@ -372,7 +407,7 @@
 
 @media (max-width: 991px) {
   .u-section-2-3 .u-sheet-1 {
-    min-height: 1552px;
+    min-height: 1697px;
   }
 
   .u-section-2-3 .u-gallery-1 {
@@ -396,7 +431,7 @@
 
 @media (max-width: 575px) {
   .u-section-2-3 .u-sheet-1 {
-    min-height: 828px;
+    min-height: 973px;
   }
 
   .u-section-2-3 .u-gallery-1 {
@@ -1367,6 +1402,7 @@
 
   .u-section-4 .u-text-1 {
     font-size: 1.875rem;
+    margin-left: auto;
   }
 
   .u-section-4 .u-text-2 {
