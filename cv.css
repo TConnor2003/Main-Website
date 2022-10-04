@@ -32,13 +32,13 @@
 .u-section-1 .u-image-1 {
   width: 152px;
   height: 152px;
-  margin: 0 auto;
+  margin: 16px auto 0;
 }
 
 .u-section-1 .u-rotation-parent-1 {
   width: 219px;
   height: 250px;
-  margin: 229px auto 0;
+  margin: 213px auto 5px;
 }
 
 .u-section-1 .u-shape-1 {
@@ -109,6 +109,10 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 1303px;
+  }
+
   .u-section-1 .u-text-1 {
     margin-top: 189px;
     margin-left: 0;
@@ -122,12 +126,16 @@
     margin-top: 640px;
   }
 
+  .u-section-1 .u-text-3 {
+    margin-top: -320px;
+  }
+
   .u-section-1 .u-image-1 {
-    margin-top: -25px;
+    margin-top: -194px;
   }
 
   .u-section-1 .u-rotation-parent-1 {
-    margin-top: 192px;
+    margin-top: 507px;
   }
 }.u-block-4ba5-2 {
   position: absolute;
