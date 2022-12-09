@@ -11,4 +11,5 @@ body{
     width:35px;
     border-radius:50%;
     border:2px solid black;
+    background-image: url(/images/catcircle-min.png);
   }
