@@ -2,7 +2,8 @@ body{
     margin:0;
     padding:0;
     overflow:hidden;
-    background-color:#77dd77;
+    background-color:#000000;
+    color: white;
   }
   div{
     position:absolute;
@@ -11,5 +12,9 @@ body{
     width:35px;
     border-radius:50%;
     border:2px solid black;
+    background-image: url(/images/catcircle-min.png);
+  }
+
+  .cursor {
     background-image: url(/images/catcircle-min.png);
   }
