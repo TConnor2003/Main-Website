@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#77dd77;
+  }
+  div{
+    position:absolute;
+    transform:translate(-50%,-50%);
+    height:35px;
+    width:35px;
+    border-radius:50%;
+    border:2px solid black;
+  }
