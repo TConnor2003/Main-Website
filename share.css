@@ -3,7 +3,7 @@ body{
     padding:0;
     overflow:hidden;
     background-color:#000000;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   div{
     position:absolute;
@@ -17,4 +17,6 @@ body{
 
   .cursor {
     background-image: url(/images/catcircle-min.png);
+    color: red;
+    background-color: lime;
   }
