@@ -1,5 +1,5 @@
 html {
-    cursor: none;
+    background-color: black;
     overflow: hidden;
 }
 .pointer {
@@ -10,7 +10,10 @@ html {
 }
 
 .pointer img {
-    width: 14px;
+    width: 32px;
+    margin-right: 20px;
     image-rendering: auto;
     background-image: url(/images/catcircle-min.png);
+    margin-top: -16px;
+    margin-left: -16px;
 }
