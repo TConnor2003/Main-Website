@@ -10,5 +10,7 @@ html {
 }
 
 .pointer img {
-    width: 140px;
+    width: 14px;
+    image-rendering: auto;
+    background-image: url(/images/catcircle-min.png);
 }
