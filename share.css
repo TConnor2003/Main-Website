@@ -1,22 +1,14 @@
-body{
-    margin:0;
-    padding:0;
-    overflow:hidden;
-    background-color:#000000;
-    color: rgb(255, 255, 255);
-  }
-  div{
-    position:absolute;
-    transform:translate(-50%,-50%);
-    height:35px;
-    width:35px;
-    border-radius:50%;
-    border:2px solid black;
-    background-image: url(/images/catcircle-min.png);
-  }
+html {
+    cursor: none;
+    overflow: hidden;
+}
+.pointer {
+    position: absolute;
+    height: 480px; top:100px;
+    width: 480px; left:50%;
+    pointer-events: none;
+}
 
-  .cursor {
-    background-image: url(/images/catcircle-min.png);
-    color: red;
-    background-color: lime;
-  }
+.pointer img {
+    width: 140px;
+}

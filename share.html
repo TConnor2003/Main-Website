@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <link rel="stylesheet" href="share.css">
+    <title>Share</title>
+	<meta charset="UTF-8">
+<script>	$(document).mousemove(function (e) {
+    $(".pointer").css({ left: e.pageX, top: e.pageY });
+});</script>
 </head>
 <body>
-    <h1>Please Share my website :)</h1>
-    <div class="cursor" id="circle"></div>
-    <script>let circle = document.getElementById('circle');
-        const onMouseMove = (e) =>{
-          circle.style.left = e.pageX + 'px';
-          circle.style.top = e.pageY + 'px';
-        }
-        document.addEventListener('mousemove', onMouseMove);</script>
+	<div class="pointer"> <img src="https://thumbs.gfycat.com/AmusingFriendlyBarasingha-size_restricted.gif" class="gif" alt=""> </div>
 </body>
 </html>
