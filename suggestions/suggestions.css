@@ -106,3 +106,37 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* large buttons centered on the screen */
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons button {
+    background-color: #636262;
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 70px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+    width: 250px;
+    height: 25vh;
+}
+
+.buttons button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    transform: scale(1.3);
+}
+
+p {
+    font-size: 20px;
+}
