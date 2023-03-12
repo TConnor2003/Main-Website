@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #312e2e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    width: 80px;
+    left: 10px;
+    top: 10px;
+    position: absolute;
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+
+/* display .reading on the right and .read on the left */
+.reading {
+    margin: auto;
+    text-align: center;
+    height: 500px;
+    width: 45%;
+    background-color: #636262;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.reading h1 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.read {
+    text-align: center;
+    margin: auto;
+    height: 500px;
+    width: 45%;
+    background-color: #636262;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.read h1 {
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: #636262;
+    color: #ffffff;
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
