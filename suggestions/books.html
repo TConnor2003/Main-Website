@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/suggestions/suggestions.css">
     <script src="https://kit.fontawesome.com/11a06a9c3e.js" crossorigin="anonymous"></script>
     <link rel="icon" href="/images/favicon_26.png" type="image/x-icon">
+    <script src="/suggestions/js/sort.js"></script>
 </head>
 
 <body>
@@ -34,56 +35,57 @@
         <input id="toggle" type="checkbox" checked>
         <h2>Drop Down Menu</h2>
         <ul>
-            <li><a href="#HarryPotter">Harry Potter Series</a></li>
-            <li><a href="#HungerGames">Hunger Games Series</a></li>
-            <li><a href="#ReadyPlayer">Ready Player Series</a></li>
-            <li><a href="#Minecraft">Minecraft Books</a></li> 
+            <li><a onclick="everything()">All</a></li>
+            <li><a onclick="hp()">Harry Potter Series</a></li>
+            <li><a onclick="hg()">Hunger Games Series</a></li>
+            <li><a onclick="rp()">Ready Player Series</a></li>
+            <li><a onclick="mc()">Minecraft Books</a></li> 
         </ul>
     </div>
-    <div class="gallery">
-        <div class="gallery-item" id="HungerGames">
+    <div class="gallery" id="read">
+        <div class="gallery-item hg">
             <img src="/images/Books/HungerGames/hg1.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hg">
             <img src="/images/Books/HungerGames/hg2.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hg" >
             <img src="/images/Books/HungerGames/hg3.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item" id="ReadyPlayer">
+        <div class="gallery-item rp">
             <img src="/images/Books/ReadyPlayer/rp1.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item" id="HarryPotter">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp1.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp2.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp3.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp4.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp5.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp6.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item hp">
             <img src="/images/Books/HarryPotter/hp7.webp" class="gallery-image" />
         </div>
-        <div class="gallery-item" id="Minecraft">
+        <div class="gallery-item mc">
             <img src="/images/Books/Minecraft/mc1.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item mc">
             <img src="/images/Books/Minecraft/mc2.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item mc">
             <img src="/images/Books/Minecraft/mc3.jpg" class="gallery-image" />
         </div>
-        <div class="gallery-item">
+        <div class="gallery-item mc">
             <img src="/images/Books/Minecraft/mc4.jpg" class="gallery-image" />
         </div>
 
@@ -94,7 +96,7 @@
         <h2>In no order</h2>
     </div>
 
-    <div class="gallery">
+    <div class="gallery" id="reading">
         <div class="gallery-item">
             <img src="/images/Books/ReadyPlayer/rp2.jpg" class="gallery-image" />
         </div>
